@@ -25,6 +25,7 @@ renderer_none := Renderer{
 	procs = {
 		clear_color = proc(color: [4]f32, index: u32) {},
 		clear_depth = proc(depth: f32) {},
+		rect = proc(position, size: [2]f32, color: [4]f32, texcoords: [2][2]f32, rotation: f32, texture_index: u32, z_index: i32) {}
 	},
 }
 
